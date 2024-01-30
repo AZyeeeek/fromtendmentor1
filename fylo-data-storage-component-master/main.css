@@ -1,0 +1,109 @@
+
+
+
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background-image:url(images/bg-desktop.png);
+    background-color: rgb(10, 20, 47);
+    background-size:cover;  
+    background-position: top; 
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width:50%;
+    height: 180px;
+    margin:auto;
+}
+.left-side{
+    height: 100%;
+    width: 43%;
+    box-sizing: border-box;
+    margin-right:auto;
+    background-color: rgb(29, 13, 119);
+    padding:30px;
+    border-top-right-radius: 70px;
+}
+.fylo-text div{
+    background-color:rgb(3, 9, 26);
+    padding-top: 5px;
+    padding: 7px;
+    border-radius: 10px;
+    width: 30px;
+    height:30px;
+    text-align: center;
+    justify-content: center;
+}
+.fylo-text{
+    justify-content: space-between;
+    display: flex;
+    width: 60%;
+    margin-top: 10px;
+}
+.fylo-text img{
+    margin-top: 5px;
+}   
+.right-side{
+    height: 90%;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 52%;
+    background-color:rgb(29,13,119);
+    color: white;
+    padding: 10px;
+    height: fit-content;
+    margin-top: auto;
+    border-radius:15px;
+    padding-left:40px;
+    padding-right: 40px;
+}
+.storage-text{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    margin-top: 10px;
+}
+.storge-text p{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.storge{
+    width: 100%;
+    padding:2px;
+    height: 13px;
+    background-color: rgb(29,32,40);
+    border-radius: 10px;
+}
+.storge .bar{
+    width: 75%;
+    box-sizing: border-box;
+    background-image: linear-gradient(
+        to right,
+        hsl(6, 100%, 80%),
+        hsl(335, 100%, 65%)
+    );
+    border-radius: 10px;
+    height: 100%;
+    padding:1px;
+}
+.storge .bar .bar2{
+    height:11px;
+    width:11px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: auto;
+}
+.left-text{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
